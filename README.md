@@ -19,6 +19,15 @@ Releases
 Latest .jar file in release section contains netconf-java compiled from Java SE 8u65.
 If user wants to use some other java version, then download the source code and compile it with desired version.
 
+v1.1.0
+------
+
+* Replaced the ssh library with [sshj](https://github.com/hierynomus/sshj)
+    * Adds support for new ssh crypto algorithms
+    * More modern ssh implementation
+* Added support for importing and building the library with maven
+* Added FindBugs code testing to maven build    
+
 SYNOPSIS
 ========
 

@@ -4,7 +4,8 @@
  *
  * Use is subject to license terms.
  *
- */
+ *//*
+
 
 //code to load snmp configuration
 
@@ -24,7 +25,8 @@ public class snmp_config {
     public static void main(String[] args) throws LoadException, IOException, 
             NetconfException, ParserConfigurationException, SAXException {
         
-        /*Build the XML configuration
+        */
+/*Build the XML configuration
          *The XML configuration required is:
          *
          * <configuration>
@@ -59,7 +61,8 @@ public class snmp_config {
         
         
         
-         */
+         *//*
+
         // XMLBuilder builder = new XMLBuilder();
         // XML ftp_config = builder.createNewConfig("system", "services", "ftp");
 
@@ -102,3 +105,4 @@ public class snmp_config {
          device.close();
     }
 }
+*/
